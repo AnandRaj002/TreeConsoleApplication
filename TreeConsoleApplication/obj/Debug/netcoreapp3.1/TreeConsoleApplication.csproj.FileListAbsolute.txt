@@ -1,0 +1,13 @@
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\bin\Debug\netcoreapp3.1\TreeConsoleApplication.exe
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\bin\Debug\netcoreapp3.1\TreeConsoleApplication.deps.json
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\bin\Debug\netcoreapp3.1\TreeConsoleApplication.runtimeconfig.json
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\bin\Debug\netcoreapp3.1\TreeConsoleApplication.runtimeconfig.dev.json
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\bin\Debug\netcoreapp3.1\TreeConsoleApplication.dll
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\bin\Debug\netcoreapp3.1\TreeConsoleApplication.pdb
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\obj\Debug\netcoreapp3.1\TreeConsoleApplication.csprojAssemblyReference.cache
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\obj\Debug\netcoreapp3.1\TreeConsoleApplication.AssemblyInfoInputs.cache
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\obj\Debug\netcoreapp3.1\TreeConsoleApplication.AssemblyInfo.cs
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\obj\Debug\netcoreapp3.1\TreeConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\obj\Debug\netcoreapp3.1\TreeConsoleApplication.dll
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\obj\Debug\netcoreapp3.1\TreeConsoleApplication.pdb
+C:\Users\anrajpar\Source\Repos\TreeConsoleApplication\TreeConsoleApplication\obj\Debug\netcoreapp3.1\TreeConsoleApplication.genruntimeconfig.cache
