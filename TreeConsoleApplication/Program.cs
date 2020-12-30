@@ -41,6 +41,10 @@ namespace TreeConsoleApplication
                 Console.WriteLine("Is a Binary Search Tree");
             else
                 Console.WriteLine("Not a Binary Search Tree");
+
+            Console.WriteLine();
+            Console.WriteLine();
+            bTree.BFSDisplayTree(bTree.Root);
         }
     }
 }
