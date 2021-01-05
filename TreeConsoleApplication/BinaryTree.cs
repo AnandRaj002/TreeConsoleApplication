@@ -12,6 +12,17 @@ namespace TreeConsoleApplication
     {
         public Node Root { get; set; }
 
+        /// <summary>
+        /// Method check if the tree is BST (Binary Search Tree) or not
+        /// Recirsive method
+        /// Define min and max boundary and see if each node data in range of min and max value
+        /// Reduce max value to input node - 1 for left sub tree
+        /// Reduce min value to input node + 1 for rigth sub tree
+        /// </summary>
+        /// <param name="node">Input node/Root Node</param>
+        /// <param name="min">minimum bondary value</param>
+        /// <param name="max">maximum boundry value</param>
+        /// <returns></returns>
         public bool IsBinaySearchTree(Node node, int min, int max)
         {
             if (node == null)
@@ -23,6 +34,14 @@ namespace TreeConsoleApplication
             return (IsBinaySearchTree(node.leftChild, min, node._data - 1) && IsBinaySearchTree(node.rightChild, node._data + 1, max));            
         }
 
+        /// <summary>
+        /// Find Depth of tree at any node
+        /// Recursive method
+        /// Start with zero and increase depth on each left sub tree and right sub tree
+        /// return whatever is greater value
+        /// </summary>
+        /// <param name="node"></param>
+        /// <returns></returns>
         public int maxDepth(Node node)
         {
             if (node == null)
@@ -39,6 +58,12 @@ namespace TreeConsoleApplication
             }
         }
 
+        /// <summary>
+        /// BFS Traversal using queue
+        /// Enter root into queue
+        /// Loop till queue is empty. Remove root, Print data and Insert all its child.
+        /// </summary>
+        /// <param name="root">Input Node/Root Node</param>
         public void BFSDisplayTree(Node root)
         {
             Queue<Node> queue = new Queue<Node>();
@@ -64,37 +89,15 @@ namespace TreeConsoleApplication
                 {
                     queue.Enqueue(element.rightChild);
                 }                
-            }
-            //if(root != null)
-            //{
-            //    if (root == this.Root)
-            //    {
-            //        Console.WriteLine(root._data.ToString().PadLeft((maxDepth(root)*2)-1));
-            //    }
-
-            //    if (root.leftChild != null && root.rightChild != null)
-            //    {
-            //        //string test = "/" + "    " + "\\";
-            //        //Console.WriteLine(test.PadLeft((maxDepth(root.rightChild) * 2) - 1)," ");
-            //        Console.WriteLine(root.leftChild._data.ToString().PadLeft((maxDepth(root) * 2) - 1) + "    " + root.rightChild._data);
-            //        DisplayTree(root.leftChild);
-            //        DisplayTree(root.rightChild);
-            //    }
-            //    else if (root.leftChild != null)
-            //    {
-            //        Console.WriteLine("/");
-            //        Console.WriteLine(root.leftChild._data);
-            //        DisplayTree(root.leftChild);
-            //    }
-            //    else if(root.rightChild != null)
-            //    {
-            //        Console.WriteLine("\\");
-            //        Console.WriteLine(root.rightChild._data);
-            //        DisplayTree(root.rightChild);
-            //    }                    
-            //}
+            }            
         }
 
+        /// <summary>
+        /// In Order Display
+        /// Recursive Method
+        /// Go to left sub tree -> Print Data -> GO to right sub tree
+        /// </summary>
+        /// <param name="root">Input Node/Root Node</param>
         public void DisplayInOrder(Node root)
         {
             if (root != null)
@@ -105,6 +108,12 @@ namespace TreeConsoleApplication
             }
         }
 
+        /// <summary>
+        /// Pre Order Display
+        /// Recursive Method
+        /// Print Data -> Got to left sub tree -> GO to right sub tree
+        /// </summary>
+        /// <param name="root">Input Node/Root Node</param>
         public void DisplayPreOrder(Node root)
         {
             if (root != null)
@@ -115,6 +124,12 @@ namespace TreeConsoleApplication
             }
         }
 
+        /// <summary>
+        /// Post Order Display
+        /// Recusive Method
+        /// Go to left sub tree -> Go to right sub tree -> Print Data
+        /// </summary>
+        /// <param name="root">Input Node/Root Node</param>
         public void DisplayPostOrder(Node root)
         {
             if (root != null)
